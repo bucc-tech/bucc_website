@@ -2,7 +2,7 @@ import React from 'react';
 import Navbrand from '../components/Navbrand';
 const Nav = () => {
   return (
-    <nav className="flex justify-between bg-white shadow h-24 p-3 w-full">
+    <nav className="flex justify-between bg-white shadow h-24 p-3 w-screen">
       <div className="flex ml-12">
         <Navbrand />
         {/* <span class="font-semibold text-xl tracking-tight">BUCC</span> */}

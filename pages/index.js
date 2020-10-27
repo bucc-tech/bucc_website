@@ -1,45 +1,48 @@
 import Head from 'next/head';
-import { GiantQuotes, UpsidedownTriangle } from "../components/icons";
-import Nav from '../components/Nav';
+import { GiantQuotes, UpsidedownTriangle } from '../components/icons';
+import Layout from "../components/Layout"
+// import Nav from '../components/Nav';
 import Carousel, { Slide } from '../components/primitives/Carousel';
 import Circle from '../svg/Circle';
 import Dot from '../svg/Dot';
+import Dot3 from '../svg/Dot3';
 
 export default function Home() {
   const carouselData = [
     {
-      name: "Okubanjo Funsho",
-      year: "2013",
-      quote: "It was fun talking with some Babcock students today 💪🏽💪🏽💪🏽 I was able to listen to some of the problems they are scared of and motivated them to seek greatness 🔥🔥🔥 I see the future tech leaders and I see the fire of passion waiting to be ignited 👊🏽👊🏽👊🏽"
+      name: 'Okubanjo Funsho',
+      year: '2013',
+      quote:
+        'It was fun talking with some Babcock students today 💪🏽💪🏽💪🏽 I was able to listen to some of the problems they are scared of and motivated them to seek greatness 🔥🔥🔥 I see the future tech leaders and I see the fire of passion waiting to be ignited 👊🏽👊🏽👊🏽',
     },
     {
-      name: "David Akpughe",
-      year: "2020",
-      quote: "It was really awesome tbh. Fantastic place."
+      name: 'David Akpughe',
+      year: '2020',
+      quote: 'It was really awesome tbh. Fantastic place.',
     },
     {
-      name: "Pedro Ogheneochuko",
-      year: "2020",
-      quote: "I loved it"
+      name: 'Pedro Ogheneochuko',
+      year: '2020',
+      quote: 'I loved it',
     },
   ].map((quote, index) => {
     return (
       <Slide key={index + quote.name}>
         <div className="flex flex-col items-center h-full pt-16 mb-3">
           <div className="p-16 max-w-2xl h-full h-64 bg-primaryColor rounded relative">
-            <p className="">
-              {quote.quote}
-            </p>
+            <p className="">{quote.quote}</p>
             <GiantQuotes className="absolute right-0 top-0 -mt-5 mr-5" />
           </div>
           <UpsidedownTriangle />
           <img src="/images/avatar.png" className="rounded h-20 w-20 mt-10" />
           <p className="mt-4">{quote.name}</p>
-          <a href="#" className="text-primaryColor">{quote.year} Alumnus</a>
+          <a href="#" className="text-primaryColor">
+            {quote.year} Alumnus
+          </a>
         </div>
       </Slide>
-    )
-  })
+    );
+  });
   return (
     <>
       <Head>
@@ -47,9 +50,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
+      <Layout>
 
-      <div className="flex container mx-auto pt-32">
+      <div className="flex flex-wrap container mx-auto pt-32">
         <div className="flex-1">
           <h1 className="font-bold text-7xl leading-none">
             Babcock University Computer Club
@@ -146,8 +149,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex mt-32">
-        <div className="flex-1 mr-10">
+      <div className="flex flex-wrap justify-between mt-32">
+        <div className="flex-1">
           <div
             className="dotbackground flex justify-end"
             style={{
@@ -156,7 +159,7 @@ export default function Home() {
             }}
           >
             <img
-              className="inline mt-24"
+              className="mt-24"
               src="https://res.cloudinary.com/davak/image/upload/v1603662332/bucc/zachary-nelson-98Elr-LIvD8-unsplash_1_ldoubz.png"
               alt=""
             />
@@ -195,12 +198,55 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full mt-16 relative">
-        <Carousel>
-          {carouselData}
-        </Carousel>
+        <Carousel>{carouselData}</Carousel>
       </div>
-    </>
+
+      <section className="flex bg-indigo-100 mt-24 h-56">
+        <div className="flex-col m-auto text-center">
+          <h1
+            className="font-normal text-4xl mb-6"
+            style={{ fontFamily: "'Luckiest Guy', cursive" }}
+          >
+            Have an idea, project or event ?
+          </h1>
+          <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
+            Work with us
+          </button>
+        </div>
+        <div
+          className="absolute -mt-20 right-0 mr-20"
+          style={{ transform: 'scale(0.8)' }}
+        >
+          <Dot3 />
+        </div>
+      </section>
+
+      <section
+        className="flex bg-center bg-no-repeat bg-cover"
+        style={{
+          height: '585px',
+          background:
+            "url('https://res.cloudinary.com/davak/image/upload/v1603801943/bucc/BG_rkwfgj.png')",
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
+      >
+        <div className="flex-col m-auto text-center">
+          <h1 className="font-extrabold text-4xl text-white mb-6">
+            Become a BUCC member?
+          </h1>
+          <p className="font-bold text-white mb-8" style={{ width: '462px' }}>
+            It is not necessary for any club member to be a student of the
+            department nor is knowledge of any programming language required.
+          </p>
+          <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
+            Get in Contact
+          </button>
+        </div>
+      </section>
+
+      </Layout>
+  </>
   );
 }
-
-
