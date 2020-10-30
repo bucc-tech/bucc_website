@@ -9,6 +9,19 @@ module.exports = {
       colors: {
         primaryColor: "#258AFF"
       },
+      screens: {
+        largeTablet: { max: "1500px" },
+        // => @media (max-width: 1500px) { ... }
+
+        tablet: { max: "800px" },
+        // => @media (max-width: 800px) { ... }
+
+        smallTablet: { max: "600px" },
+        // => @media (max-width: 600px) { ... }
+
+        phone: { max: "450px" },
+        // => @media (max-width: 350px) { ... }
+      },
       spacing: {
         '72': '18rem',
         '84': '21rem',

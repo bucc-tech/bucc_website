@@ -7,7 +7,7 @@ const Nav = () => {
         <Navbrand />
         {/* <span class="font-semibold text-xl tracking-tight">BUCC</span> */}
       </div>
-      <div className="flex text-gray-600 p-6">
+      <div className="flex text-gray-600 p-6 smallTablet:hidden">
         <a
           href="#"
           class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
