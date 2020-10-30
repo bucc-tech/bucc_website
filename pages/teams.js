@@ -119,22 +119,22 @@ const teams = () => {
           <h1 className="text-2xl font-semibold">2020/2021 Executives</h1>
         </div>
 
-        <div class="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12">
+        <div className="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12">
           {cardData.map((info, index) => {
             return (
               <div
                 key={index}
-                class="rounded-md overflow-hidden shadow-lg bg-white"
+                className="rounded-md overflow-hidden shadow-lg bg-white"
                 style={{ width: '337px', height: '380px' }}
               >
                 <img
-                  class="w-full"
+                  className="w-full"
                   src={info.img}
                   alt="Sunset in the mountains"
                 />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-base mb-2">{info.name}</div>
-                  <span class="text-gray-700 text-base">{info.position}</span>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-base mb-2">{info.name}</div>
+                  <span className="text-gray-700 text-base">{info.position}</span>
                 </div>
               </div>
             );
