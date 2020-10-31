@@ -1,14 +1,14 @@
 import React from 'react'
-import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Nav from '../components/Nav'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
-        <>
-            <Nav/>
-                {children}
-            <Footer/>    
-        </>
+        <div className="w-full h-full overflow-x-hidden">
+            <Nav />
+            {children}
+            <Footer />
+        </div>
     )
 }
 
