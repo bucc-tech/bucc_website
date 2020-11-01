@@ -30,6 +30,15 @@ const event = () => {
         <section>
           <div className="container mx-auto flex flex-row flex-wrap mt-24">
             <div>
+              <span
+                className="absolute"
+                style={{
+                  background: 'rgba(37, 138, 255, 0.9)',
+                  padding: '20px',
+                }}
+              >
+                26
+              </span>
               <img
                 src="https://res.cloudinary.com/davak/image/upload/v1604254634/bucc/sydney-rae-jk6Kt2jMy4w-unsplash_jyieec.png"
                 alt=""
@@ -64,7 +73,16 @@ const event = () => {
                 <button className="w-40 h-12">Read more</button>
               </div>
             </div>
-            <div style={{marginLeft:"50px"}}>
+            <div style={{ marginLeft: '50px' }}>
+              <span
+                className="absolute"
+                style={{
+                  background: 'rgba(37, 138, 255, 0.9)',
+                  padding: '20px',
+                }}
+              >
+                26
+              </span>
               <img
                 src="https://res.cloudinary.com/davak/image/upload/v1604254634/bucc/sydney-rae-jk6Kt2jMy4w-unsplash_jyieec.png"
                 alt=""
