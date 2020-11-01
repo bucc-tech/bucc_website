@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 import Navbrand from '../components/Navbrand';
 const Nav = () => {
   return (
@@ -10,11 +10,9 @@ const Nav = () => {
       </div>
       <div className="flex text-gray-600 p-6 smallTablet:hidden">
         <Link href="/">
-        <a
-          class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
-        >
-          Home
-        </a>
+          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
+            Home
+          </a>
         </Link>
         <a
           href="#"
@@ -24,20 +22,18 @@ const Nav = () => {
         </a>
         <div className="dropdown mr-8 flex relative">
           <Link href="/teams">
-          <a
-            class="flex items-center font-normal text-base hover:text-blue-500 hover:font-bold"
-          >
-            <span>Teams</span>
-            <svg
-              width="14"
-              height="11"
-              viewBox="0 0 14 11"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z" fill="#2D9CDB" />
-            </svg>
-          </a>
+            <a class="flex items-center font-normal text-base hover:text-blue-500 hover:font-bold">
+              <span>Teams</span>
+              <svg
+                width="14"
+                height="11"
+                viewBox="0 0 14 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z" fill="#2D9CDB" />
+              </svg>
+            </a>
           </Link>
           <ul class="dropdown-menu absolute hidden text-gray-700 pt-6">
             <li class="">
@@ -59,19 +55,15 @@ const Nav = () => {
           </ul>
         </div>
         <Link href="/about">
-        <a
-          
-          class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
-        >
-          About us
-        </a>
+          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
+            About us
+          </a>
         </Link>
-        <a
-          href="#"
-          class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
-        >
-          Events
-        </a>
+        <Link href="/event">
+          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
+            Events
+          </a>
+        </Link>
       </div>
     </nav>
   );
