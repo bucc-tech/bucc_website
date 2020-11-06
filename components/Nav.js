@@ -64,6 +64,11 @@ const Nav = () => {
             Events
           </a>
         </Link>
+        <Link href="/blog">
+          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
+            Blog
+          </a>
+        </Link>
       </div>
     </nav>
   );
