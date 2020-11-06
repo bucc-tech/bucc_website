@@ -1,28 +1,23 @@
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
 import Navbrand from '../components/Navbrand';
 const Nav = () => {
   return (
     <nav className="flex justify-between bg-white shadow h-24 p-3 w-screen">
       <div className="flex ml-12">
         <Navbrand />
-        {/* <span class="font-semibold text-xl tracking-tight">BUCC</span> */}
+        {/* <span className="font-semibold text-xl tracking-tight">BUCC</span> */}
       </div>
       <div className="flex text-gray-600 p-6 smallTablet:hidden">
         <Link href="/">
-          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-            Home
-          </a>
+          <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Home</a>
         </Link>
-        <a
-          href="#"
-          class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
-        >
+        <a href="#" className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
           Departments
         </a>
         <div className="dropdown mr-8 flex relative">
           <Link href="/teams">
-            <a class="flex items-center font-normal text-base hover:text-blue-500 hover:font-bold">
+            <a className="flex items-center font-normal text-base hover:text-blue-500 hover:font-bold">
               <span>Teams</span>
               <svg
                 width="14"
@@ -35,18 +30,18 @@ const Nav = () => {
               </svg>
             </a>
           </Link>
-          <ul class="dropdown-menu absolute hidden text-gray-700 pt-6">
-            <li class="">
+          <ul className="dropdown-menu absolute hidden text-gray-700 pt-6">
+            <li className="">
               <a
-                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 href="#"
               >
                 One
               </a>
             </li>
-            <li class="">
+            <li className="">
               <a
-                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                 href="#"
               >
                 Two
@@ -55,19 +50,13 @@ const Nav = () => {
           </ul>
         </div>
         <Link href="/about">
-          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-            About us
-          </a>
+          <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">About us</a>
         </Link>
         <Link href="/event">
-          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-            Events
-          </a>
+          <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Events</a>
         </Link>
         <Link href="/blog">
-          <a class="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-            Blog
-          </a>
+          <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Blog</a>
         </Link>
       </div>
     </nav>
