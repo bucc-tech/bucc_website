@@ -10,11 +10,14 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.19",
     "@next/mdx": "^10.0.1",
+    "gray-matter": "^4.0.2",
     "next": "^10.0.1",
     "postcss-preset-env": "^6.7.0",
+    "raw-loader": "^4.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-items-carousel": "^2.8.0",
+    "react-markdown": "^5.0.2",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {

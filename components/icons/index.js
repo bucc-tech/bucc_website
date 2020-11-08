@@ -1,6 +1,6 @@
-import { ActiveDash, InactiveDash } from "./CarouselNavigationDashes";
-import GiantQuotes from "./GiantQuotes";
-import UpsidedownTriangle from "./UpsidedownTriangle";
+import ArrowDown from './ArrowDown';
+import { ActiveDash, InactiveDash } from './CarouselNavigationDashes';
+import GiantQuotes from './GiantQuotes';
+import UpsidedownTriangle from './UpsidedownTriangle';
 
-export { InactiveDash, ActiveDash, GiantQuotes, UpsidedownTriangle };
-
+export { InactiveDash, ActiveDash, GiantQuotes, UpsidedownTriangle, ArrowDown };

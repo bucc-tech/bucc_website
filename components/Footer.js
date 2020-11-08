@@ -63,20 +63,19 @@ const Footer = () => {
           <div className="flex flex-col font-normal text-base text-gray-700 w-full">
             <div className="mb-3 w-full">
               <span>
-                Subscribe to our newsletter to get exciting and upto date news
-                about our club
+                Subscribe to our newsletter to get exciting and upto date news about our club
               </span>
             </div>
             {/* form */}
-            <form class="w-full">
-              <div class="flex items-center bg-white rounded-md py-2 pr-1 phone:flex-wrap phone:p-2">
+            <form className="w-full">
+              <div className="flex items-center bg-white rounded-md py-2 pr-1 phone:flex-wrap phone:p-2">
                 <input
-                  class="appearance-none bg-white border-none w-full text-gray-700 font-bold mr-3 py-2 px-2 leading-tight focus:outline-none phone:h-20"
+                  className="appearance-none bg-white border-none w-full text-gray-700 font-bold mr-3 py-2 px-2 leading-tight focus:outline-none phone:h-20"
                   type="text"
                   placeholder="✉ Enter your email"
                 />
                 <button
-                  class="flex-shrink-0 bg-blue-500 text-base text-white h-16 w-40 py-2 px-3 rounded phone:w-full"
+                  className="flex-shrink-0 bg-blue-500 text-base text-white h-16 w-40 py-2 px-3 rounded phone:w-full"
                   type="button"
                 >
                   Subscribe

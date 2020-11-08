@@ -1,34 +1,30 @@
+import Link from 'next/link';
 import React from 'react';
-import Link from 'next/link'
 
-const Card = () => {
+const Card = ({ post }) => {
   return (
     <div
-      class="max-w-sm rounded overflow-hidden shadow-lg bg-white"
-      style={{ width: '300px', height: 'auto' }}
+      className="max-w-sm rounded overflow-hidden w-full shadow-lg bg-white smallTablet:mx-auto flex flex-col justify-between"
+      style={{ maxWidth: '300px', height: '100%' }}
     >
-      <img
-        class="w-full"
-        src="https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_2_t72s2o.png"
-        alt="Sunset in the mountains"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-        <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-          nihil.
-        </p>
+      <div>
+        <img
+          className="w-full"
+          src="https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_2_t72s2o.png"
+          alt="Sunset in the mountains"
+        />
+        <div className="px-6 py-4 phone:px-3">
+          <div className="font-bold text-xl mb-2">{post.title}</div>
+          <p className="text-gray-700 text-base">{post.extract}</p>
+        </div>
       </div>
-      <div class="flex flex-row justify-between p-6">
-        <div class="text-sm">
-          <p class="text-gray-600">Aug 18th 2020</p>
+      <div className="flex flex-row justify-between items-center p-6 phone:px-3">
+        <div className="text-sm">
+          <p className="text-gray-600">{post.date}</p>
         </div>
         <div className="text-sm">
-          <Link href="/">
-            <p className="text-gray-900 font-semibold leading-none cursor-pointer">
-              Read more
-            </p>
+          <Link href={`/blog/${post.slug}`}>
+            <a className="text-gray-900 font-semibold leading-none cursor-pointer">Read more</a>
           </Link>
         </div>
       </div>
