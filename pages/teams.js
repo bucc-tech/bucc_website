@@ -6,86 +6,84 @@ const teams = () => {
   const cardData = [
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087114/bucc/Rectangle_20_eg1bd6.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946621/bucc/excos/IMG_3756_nk6zww.jpg',
       name: 'Philip Seun',
       alt: 'president',
       position: 'President',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087119/bucc/Rectangle_21_hykpu2.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946616/bucc/excos/IMG_7477_s9mfoh.jpg',
       name: 'Nwafor Kosi',
       alt: 'vp admin',
       position: 'Vice President Administrative',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087125/bucc/Rectangle_22_lfhnmo.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604950118/bucc/excos/Image-1_iway6u.jpg',
       name: 'Kosoko Kofoworola',
       alt: 'vp acad',
       position: 'Vice President Academics',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087113/bucc/Rectangle_20-1_byrydq.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946597/bucc/excos/IMG-20200128-WA0010_fqtnan.jpg',
       name: 'Kasope',
       alt: 'PRO',
       position: 'Public Relation Officer',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087116/bucc/Rectangle_21-1_bnot5g.png',
+      img: '',
       name: 'Wale',
       alt: 'secretary',
       position: 'General Secretary',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087119/bucc/Rectangle_22-1_fpgvrb.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946606/bucc/excos/IMG-0309_uvhte1.jpg',
       name: 'Adegbesin Omolara Zainab',
       alt: 'female sport director',
       position: 'Female Sport Director',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087114/bucc/Rectangle_20-3_yzm4n9.png',
-      name: '',
+        'https://res.cloudinary.com/davak/image/upload/v1604946599/bucc/excos/IMG-20200724-WA0166_al3v9w.jpg',
+      name: 'Madukoma Blessed',
       alt: 'male sport director',
       position: 'Male Sport Director',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087125/bucc/Rectangle_21-3_e9gtzw.png',
-      name: '',
+        'https://res.cloudinary.com/davak/image/upload/v1604946731/bucc/excos/IMG_0117_ri3nra.jpg',
+      name: 'Jemimah',
       alt: 'provost',
       position: 'Provost',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087121/bucc/Rectangle_22-3_c7mesa.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946720/bucc/excos/image0_gbg1lo.jpg',
       name: 'Laolu',
       alt: 'welfare director',
       position: 'Welfare Director',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087114/bucc/Rectangle_20-3_yzm4n9.png',
+        'https://res.cloudinary.com/davak/image/upload/v1604946620/bucc/excos/IMG_2492_uzw4md.jpg',
       name: 'Fafi Anita',
       alt: 'tresurer',
       position: 'Tresurer',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087125/bucc/Rectangle_21-3_e9gtzw.png',
-
-      name: 'Chioma',
+        'https://res.cloudinary.com/davak/image/upload/v1604951326/bucc/excos/image0_1_hfne6w.jpg',
+      name: 'Chioma Hilary',
       alt: 'socail director',
       position: 'Social Director',
     },
     {
       img:
-        'https://res.cloudinary.com/davak/image/upload/v1604087121/bucc/Rectangle_22-3_c7mesa.png',
-      name: '',
+        'https://res.cloudinary.com/davak/image/upload/v1604946728/bucc/excos/image1_g4ffbk.jpg',
+      name: 'Deborah',
       alt: 'chaplain',
       position: 'Chaplain',
     },
@@ -118,7 +116,6 @@ const teams = () => {
         >
           <h1 className="text-2xl font-semibold">2020/2021 Executives</h1>
         </div>
-
         <div className="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12">
           {cardData.map((info, index) => {
             return (
@@ -130,11 +127,14 @@ const teams = () => {
                 <img
                   className="w-full"
                   src={info.img}
-                  alt="Sunset in the mountains"
+                  alt={info.alt}
+                  style={{ height: '300px' }}
                 />
                 <div className="px-6 py-4">
                   <div className="font-bold text-base mb-2">{info.name}</div>
-                  <span className="text-gray-700 text-base">{info.position}</span>
+                  <span className="text-gray-700 text-base">
+                    {info.position}
+                  </span>
                 </div>
               </div>
             );
