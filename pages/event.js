@@ -18,7 +18,10 @@ const event = ({ events }) => {
           }}
           className="w-full h-64 bg-no-repeat bg-cover bg-left"
         >
-          <div className="container mx-auto" style={{ lineHeight: '200px', whiteSpace: 'nowrap' }}>
+          <div
+            className="container mx-auto"
+            style={{ lineHeight: '200px', whiteSpace: 'nowrap' }}
+          >
             <h1 className="text-white text-3xl font-bold ml-4">Events</h1>
             {/* <p className="text-white font-normal">All tickets availaible on Eventbrite</p> */}
           </div>
@@ -49,7 +52,7 @@ const event = ({ events }) => {
                     {index + 1}
                   </span>
                   <img
-                    src="https://res.cloudinary.com/davak/image/upload/v1604254634/bucc/sydney-rae-jk6Kt2jMy4w-unsplash_jyieec.png"
+                    src={event.image}
                     alt=""
                     className="w-full h-full smallTablet:h-auto"
                   />
@@ -89,8 +92,8 @@ const event = ({ events }) => {
               Become a BUCC member?
             </h1>
             <p className="font-bold text-white mb-8 max-w-md">
-              It is not necessary for any club member to be a student of the department nor is
-              knowledge of any programming language required.
+              It is not necessary for any club member to be a student of the
+              department nor is knowledge of any programming language required.
             </p>
             <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
               Get in Contact
