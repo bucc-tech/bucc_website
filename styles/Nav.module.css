@@ -1,0 +1,104 @@
+.main_nav_toggler {
+    /* position: fixed; */
+    right: 15px;
+    top: 12px;
+    width: 75px;
+    height: 60px;
+    padding: 0;
+    border: 0;
+    background: rgb(255, 255, 255);
+    outline: none;
+    z-index: 500;
+  }
+  
+  .icon_burger {
+    position: relative;
+    width: 24px;
+    height: 18px;
+    margin: 0 auto;
+  }
+  .icon_burger_bar:nth-child(1) {
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    display: block;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  
+  .icon_burger_bar:nth-child(2) {
+    top: 8px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    display: block;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  
+  .icon_burger_bar:nth-child(3) {
+    top: 16px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    display: block;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+
+  .main_nav {
+    background:linear-gradient(90deg, #89f7fe 0%,#66a6ff 100% );    
+    /* background: rgba(0, 0, 0); */
+    /* background-color: white; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: none; */
+    padding: 0;
+    float: none;
+    margin: 0;
+    text-align: center;
+    z-index: 99;
+  }
+/*  */
+  .nav_list {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  .nav_item {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 25px;
+    list-style: none;
+  }
+  
+  .nav_link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: inline-block;
+  }
+
+  @media (min-width: 992px) {
+    .main_nav_toggler{
+      display: none;
+    }
+    
+  }
