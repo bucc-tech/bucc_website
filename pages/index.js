@@ -107,10 +107,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row justify-center mt-10 tablet:mt-24">
-              <div className="flex uppercase font-bold text-3xl">
+              <div className="flex uppercase font-bold text-3xl" style={{alignItems:"center"}}>
                 <h1 className="">collab</h1>
                 <span
-                  className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2"
+                  className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2 ml-4"
                   style={{
                     clipPath: 'polygon(0px 20%, 100% 0%, 100% 100%, 0px 95%)',
                   }}
@@ -162,10 +162,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 tablet:col-span-2">
-                <div className="flex uppercase font-bold text-3xl mt-32 tablet:mt-20">
+                <div className="flex uppercase font-bold text-3xl mt-32 tablet:mt-20" style={{alignItems:"center"}}>
                   <h1 className="">about</h1>
                   <span
-                    className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2"
+                    className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2 ml-4"
                     style={{
                       clipPath: 'polygon(0px 15%, 100% 0%, 100% 100%, 0px 90%)',
                     }}

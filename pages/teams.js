@@ -116,7 +116,7 @@ const teams = () => {
         >
           <h1 className="text-2xl font-semibold">2020/2021 Executives</h1>
         </div>
-        <div className="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12">
+        <div className="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12 sm:auto-cols-fr">
           {cardData.map((info, index) => {
             return (
               <div
