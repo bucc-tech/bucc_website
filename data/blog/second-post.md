@@ -1,6 +1,6 @@
 ---
-title: 'Build an awesome Next.js blog'
-date: '2020-10-01'
+title: 'Grab what you can - Part 2'
+date: '2020-11-04'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 ---
 

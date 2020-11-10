@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Programming'
-date: '2020-10-13'
+date: '2020-11-10'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 ---
 

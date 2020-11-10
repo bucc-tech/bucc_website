@@ -82,20 +82,16 @@ const Blog = ({ posts }) => {
                 <div className="col-span-3 w-full border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-12 flex flex-col justify-between leading-normal phone:p-6">
                   <div className="">
                     <div className="text-gray-900 font-bold text-xl mb-2">
-                      {posts[posts.length - 1].document.data.title}
+                      {posts[0].document.data.title}
                     </div>
-                    <p className="text-gray-700 text-base">
-                      It is a long established fact that a reader will be distracted by the readable
-                      content of a page when looking at its layout. The point of using Lorem Ipsum
-                      is that....
-                    </p>
+                    <p className="text-gray-700 text-base">{posts[0].document.data.extract}</p>
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="text-sm">
-                      <p className="text-gray-600">{posts[posts.length - 1].document.data.date}</p>
+                      <p className="text-gray-600">{posts[0].document.data.date}</p>
                     </div>
                     <div className="text-sm">
-                      <Link href={`/blog/${posts[posts.length - 1].slug}`}>
+                      <Link href={`/blog/${posts[0].slug}`}>
                         <a className="text-gray-900 font-semibold leading-none cursor-pointer">
                           Read more
                         </a>
@@ -128,7 +124,7 @@ const Blog = ({ posts }) => {
                 outsideChevron
                 chevronWidth={chevronWidth}
               >
-                {posts.slice(0, 6).map((post, index) => {
+                {posts.slice(3, 10).map((post, index) => {
                   return (
                     <Card
                       key={post.document.data.title + index}
@@ -153,7 +149,7 @@ const Blog = ({ posts }) => {
             >
               <div className="col-span-5 p-16 tablet:col-span-6 phone:p-6">
                 <h1 className="text-5xl font-bold max-w-lg phone:text-2xl">
-                  {posts[posts.length - 2].document.data.title}
+                  {posts[1].document.data.title}
                 </h1>
                 <p className="mt-6 max-w-lg">
                   It is a long established fact that a reader will be distracted by the readable
@@ -161,8 +157,8 @@ const Blog = ({ posts }) => {
                   that it has a more-or-less normal distribution...
                 </p>
                 <div className="w-full flex justify-between mt-12">
-                  <p>{posts[posts.length - 2].document.data.date}</p>
-                  <Link href={`/blog/${posts[posts.length - 2].slug}`}>
+                  <p>{posts[1].document.data.date}</p>
+                  <Link href={`/blog/${posts[1].slug}`}>
                     <a className="font-bold">Read More</a>
                   </Link>
                 </div>
@@ -221,8 +217,14 @@ Blog.getInitialProps = async () => {
     return data;
   })(require.context('../../data/blog', true, /\.md$/));
 
+  const sortedPosts = posts.sort(function (a, b) {
+    // Turn your strings into dates, and then subtract them
+    // to get a value that is either negative, positive, or zero.
+    return new Date(b.document.data.date) - new Date(a.document.data.date);
+  });
+
   return {
-    posts,
+    posts: sortedPosts,
     // ...siteConfig,
   };
 };

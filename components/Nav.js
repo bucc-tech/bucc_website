@@ -5,15 +5,11 @@ import styles from '../styles/Nav.module.css';
 
 const Buttons = () => {
   return (
-    <button
-      id="headerButtonBurger"
-      class={styles.main_nav_toggler}
-      type="button"
-    >
-      <div class={styles.icon_burger}>
-        <span class={styles.icon_burger_bar}></span>
-        <span class={styles.icon_burger_bar}></span>
-        <span class={styles.icon_burger_bar}></span>
+    <button id="headerButtonBurger" className={styles.main_nav_toggler} type="button">
+      <div className={styles.icon_burger}>
+        <span className={styles.icon_burger_bar}></span>
+        <span className={styles.icon_burger_bar}></span>
+        <span className={styles.icon_burger_bar}></span>
       </div>
     </button>
   );
@@ -72,19 +68,14 @@ const Nav = () => {
           <Navbrand />
           {/* <span className="font-semibold text-xl tracking-tight">BUCC</span> */}
         </div>
-        <div className="flex" onClick={handleShow} >
+        <div className="flex" onClick={handleShow}>
           <Buttons />
         </div>
         <div className="flex text-gray-600 p-6 smallTablet:hidden">
           <Link href="/">
-            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-              Home
-            </a>
+            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Home</a>
           </Link>
-          <a
-            href="#"
-            className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
-          >
+          <a href="#" className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
             Departments
           </a>
           <div className="dropdown mr-8 flex relative">
@@ -98,10 +89,7 @@ const Nav = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path
-                    d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z"
-                    fill="#2D9CDB"
-                  />
+                  <path d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z" fill="#2D9CDB" />
                 </svg>
               </a>
             </Link>
@@ -130,14 +118,10 @@ const Nav = () => {
             </a>
           </Link>
           <Link href="/event">
-            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-              Events
-            </a>
+            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Events</a>
           </Link>
           <Link href="/blog">
-            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
-              Blog
-            </a>
+            <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Blog</a>
           </Link>
         </div>
       </nav>

@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: #E5E5E5;
+  background: #e5e5e5;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,11 +13,15 @@ a {
   text-decoration: none;
 }
 
-svg{
-  display:inline !important;
+svg {
+  display: inline !important;
   vertical-align: middle;
 }
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  border: none;
 }
