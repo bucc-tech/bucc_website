@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import Link from 'next/link';
 import Layout from '../components/Layout';
 
 const event = ({ events }) => {
@@ -66,10 +67,17 @@ const event = ({ events }) => {
                   </div>
 
                   <div className="flex flex-row justify-evenly flex-wrap phone:justify-start">
-                    <button className="border border-blue-500 rounded w-40 h-12 mt-4">
-                      Join us
+                    <Link href={event.link}>
+                      <button
+                        className="border rounded w-40 h-12 mt-4 cursor-pointer"
+                        style={{ border: '3px solid #258AFF !important', fontFamily:"'Montserrat', sans-serif" }}
+                      >
+                        Join us
+                      </button>
+                    </Link>
+                    <button className="w-40 h-12 mt-4 bg-transparent" style={{fontFamily:"'Montserrat', sans-serif" }}>
+                      <span>Read more</span>
                     </button>
-                    <button className="w-40 h-12 mt-4">Read more</button>
                   </div>
                 </div>
               </div>
