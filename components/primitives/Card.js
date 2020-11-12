@@ -10,8 +10,8 @@ const Card = ({ post }) => {
       <div>
         <img
           className="w-full"
-          src="https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_2_t72s2o.png"
-          alt="Sunset in the mountains"
+          src={post.image}
+          alt={post.title}
         />
         <div className="px-6 py-4 phone:px-3">
           <div className="font-bold text-xl mb-2">{post.title}</div>
