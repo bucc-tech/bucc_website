@@ -2,6 +2,7 @@
 title: 'Where do I start?'
 date: '2020-10-05'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1604677824/bucc/image_4_qnvzn9.png"
 ---
 
 ## Step 1

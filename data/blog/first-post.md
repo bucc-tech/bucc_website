@@ -2,6 +2,7 @@
 title: 'Overcoming the Imposter Syndrome'
 date: '2020-09-03'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_5_i82r30.png"
 ---
 
 ## Step 1

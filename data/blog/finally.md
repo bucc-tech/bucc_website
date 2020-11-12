@@ -2,6 +2,7 @@
 title: 'We Love BUCC'
 date: '2020-08-17'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_2_t72s2o.png"
 ---
 
 ## Step 1

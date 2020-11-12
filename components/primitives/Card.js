@@ -12,6 +12,7 @@ const Card = ({ post }) => {
           className="w-full"
           src={post.image}
           alt={post.title}
+          style={{height:"300px"}}
         />
         <div className="px-6 py-4 phone:px-3">
           <div className="font-bold text-xl mb-2">{post.title}</div>

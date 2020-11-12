@@ -2,6 +2,7 @@
 title: 'Getting Started with Programming'
 date: '2020-11-10'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1604677821/bucc/image_5_i82r30.png"
 ---
 
 ## Step 1
