@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
+import Ig from './icons/Ig';
+import Fb from './icons/Fb';
+import Li from './icons/Li';
 
 const Footer = () => {
   return (
@@ -10,31 +13,31 @@ const Footer = () => {
           <div className="mb-6">
             <h1 className="font-semibold text-lg text-blue-800">Quick Links</h1>
           </div>
-          <div className="flex flex-col font-normal text-base text-gray-700 ">
+          <div className="flex flex-col font-normal text-base text-gray-700 cursor-pointer ">
             <Link href="/">
               <span className="mb-3">Home</span>
             </Link>
             <Link href="/">
               <span className="mb-3">Info Board</span>
             </Link>
-            <Link href="/">
+            <Link href="/departments">
               <span className="mb-3">Department</span>
             </Link>
-            <Link href="/">
+            <Link href="/event">
               <span className="mb-3">Event</span>
             </Link>
           </div>
         </div>
         {/* TWO */}
-        <div className="col-span-1 mt-10 tablet:col-span-2 phone:col-span-3">
+        <div className="col-span-1 mt-10 tablet:col-span-2 phone:col-span-3 cursor-pointer">
           <div className="mb-6">
-            <h1 className="font-semibold text-lg">About</h1>
+            <h1 className="font-semibold text-lg text-blue-800">About</h1>
           </div>
           <div className="flex flex-col font-normal text-base text-gray-700 ">
-            <Link href="/">
+            <Link href="/teams">
               <span className="mb-3">Meet the Team</span>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <span className="mb-3">Our Story</span>
             </Link>
           </div>
@@ -42,28 +45,35 @@ const Footer = () => {
         {/* THREE */}
         <div className="col-span-1 mt-10 tablet:col-span-2 phone:col-span-3">
           <div className="mb-6">
-            <h1 className="font-semibold text-lg">Socials</h1>
+            <h1 className="font-semibold text-lg text-blue-800">Socials</h1>
           </div>
-          <div className="flex font-normal text-base text-gray-700 ">
+          <div className="flex font-normal text-base text-gray-700 cursor-pointer">
             <Link href="/">
-              <img src="" alt="fb" />
+              <div className="mr-1">
+                <Fb />
+              </div>
+            </Link>
+            <Link href="https://www.instagram.com/bu_computerclub/">
+              <div className="mr-1">
+                <Ig />
+              </div>
             </Link>
             <Link href="/">
-              <img src="" alt="ig" />
-            </Link>
-            <Link href="/">
-              <img src="" alt="li" />
+              <div className="mr-1">
+                <Li />
+              </div>
             </Link>
           </div>
         </div>
         <div className="col-span-2 mt-10 tablet:col-span-4 smallTablet:col-span-6">
           <div className="mb-6">
-            <h1 className="font-semibold text-lg">Subscribe to News Letter</h1>
+            <h1 className="font-semibold text-lg text-blue-800">Subscribe to News Letter</h1>
           </div>
           <div className="flex flex-col font-normal text-base text-gray-700 w-full">
             <div className="mb-3 w-full">
               <span>
-                Subscribe to our newsletter to get exciting and upto date news about our club
+                Subscribe to our newsletter to get exciting and upto date news
+                about our club
               </span>
             </div>
             {/* form */}
