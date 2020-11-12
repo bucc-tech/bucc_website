@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../components/Layout';
 
 const about = () => {
@@ -63,9 +64,11 @@ const about = () => {
               It is not necessary for any club member to be a student of the
               department nor is knowledge of any programming language required.
             </p>
-            <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
-              Get in Contact
-            </button>
+            <Link href="mailto:bucompclub@gmail.com" target="_blank">
+              <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+                Get in Contact
+              </button>
+            </Link>
           </div>
         </section>
       </Layout>

@@ -107,16 +107,16 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row justify-center mt-10 tablet:mt-24">
-              <div className="flex uppercase font-bold text-3xl" style={{alignItems:"center"}}>
+              <div className="flex uppercase font-bold text-2xl" style={{alignItems:"center"}}>
                 <h1 className="">collab</h1>
-                <span
-                  className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2 ml-4"
+                <h1
+                  className="text-white h-12 bg-blue-600 rounded-md pl-2 pr-2 ml-1"
                   style={{
-                    clipPath: 'polygon(0px 20%, 100% 0%, 100% 100%, 0px 95%)',
+                    clipPath: 'polygon(0px 20%, 100% 0%, 100% 100%, 0px 95%)', borderRadius:"10px"
                   }}
                 >
                   orators
-                </span>
+                </h1>
               </div>
             </div>
             <div className="flex justify-between mt-12 mb-8 space-x-2 flex-wrap phone:justify-around">
@@ -162,16 +162,16 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 tablet:col-span-2">
-                <div className="flex uppercase font-bold text-3xl mt-32 tablet:mt-20" style={{alignItems:"center"}}>
+                <div className="flex uppercase font-bold text-2xl mt-32 tablet:mt-20" style={{alignItems:"center"}}>
                   <h1 className="">about</h1>
-                  <span
-                    className="text-white h-10 bg-blue-600 rounded-md pl-2 pr-2 ml-4"
+                  <h1
+                    className="text-white h-12 bg-blue-600 rounded-md pl-2 pr-2 ml-1"
                     style={{
-                      clipPath: 'polygon(0px 15%, 100% 0%, 100% 100%, 0px 90%)',
+                      clipPath: 'polygon(0px 15%, 100% 0%, 100% 100%, 0px 90%)',borderRadius:"10px"
                     }}
                   >
                     us
-                  </span>
+                  </h1>
                 </div>
                 <p className="font-medium text-base tracking-wide text-gray-700 leading-8">
                   The Babcock University Computer Club is a student chapter of the
