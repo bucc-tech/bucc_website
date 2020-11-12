@@ -2,6 +2,7 @@
 title: 'Grab what you can - Part 2'
 date: '2020-11-04'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo_z2o6vm.jpg"
 ---
 
 ## Step 1

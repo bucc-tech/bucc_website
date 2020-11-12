@@ -2,6 +2,7 @@
 title: 'Where do we go from here?'
 date: '2020-11-10'
 extract: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+image: "https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo_z2o6vm.jpg"
 ---
 
 ## Step 1
