@@ -133,6 +133,7 @@ const Blog = ({ posts }) => {
                         extract: post.document.data.extract,
                         slug: post.slug,
                         date: post.document.data.date,
+                        image: post.document.data.image,
                       }}
                     />
                   );
