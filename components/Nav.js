@@ -25,7 +25,7 @@ const MobileNav = () => {
           </Link>
         </li>
         <li className={styles.nav_item}>
-          <Link href="" className={styles.nav_link}>
+          <Link href="/departments" className={styles.nav_link}>
             <span className={styles.nav_link}>Departments</span>
           </Link>
         </li>
@@ -75,7 +75,10 @@ const Nav = () => {
           <Link href="/">
             <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Home</a>
           </Link>
-          <a href="#" className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">
+          <a
+            href="/departments"
+            className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
+          >
             Departments
           </a>
           <div className="dropdown mr-8 flex relative">
