@@ -63,7 +63,7 @@ export default function Home() {
                   Engineering Sciences Department.
                 </p>
                 <Link href="/contact">
-                  <button className="bg-blue-500 text-white h-16 w-48 rounded-md cursor-pointer">
+                  <button className="bg-blue-500 text-white h-16 w-48 rounded-md cursor-pointer hover:bg-blue-600">
                     Get in Contact
                   </button>
                 </Link>
@@ -216,7 +216,7 @@ export default function Home() {
                 Have an idea, project or event ?
               </h1>
               <Link href="/contact">
-                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer hover:bg-blue-600">
                   Work with us
                 </button>
               </Link>
@@ -249,7 +249,7 @@ export default function Home() {
                 required.
               </p>
               <Link href="/contact">
-                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer hover:bg-blue-600">
                   Get in Contact
                 </button>
               </Link>

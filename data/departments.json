@@ -1,37 +1,41 @@
 {
   "cs": [
-    "Computer science (CS) is the study of the theoretical foundations of information and computation and of practical techniques for their implementation and application in computer systems. Computer science deals mostly with software and software systems which includes their theory, design, development, and application. It focuses on the design and analysis of algorithms to solve programs and study the performance of computer hardware and software.",
+    "Computer Science deals with the theory and practice of computer hardware and software. Students learn the theory that underlies computation and how to develop effective, efficient and correct software. The program is intensive in Mathematics and Computer Science courses.",
 
-    "Computer Science encompasses theoretical ideas about how information is stored and processed and how we can express the instructions necessary to perform a useful computation. It is also about practical techniques for the creation of new computer software and hardware. Computer science students will learn the fundamentals of different programming languages, networking, database administration, artificial intelligence, operating systems, Linux, and software design and development. Computer Science requires a good knowledge of mathematics, logic, as well as problem solving and critical thinking skills. Computer Science careers include;",
+    "We offer a BSc. Degree in Computer Science and are focused on providing fluent understanding in several programming languages and as well as offer courses such as General Mathematics, Numerical Methods and Analysis , Data structures & algorithms, Artificial Intelligence & Data science, Networking & Operating Systems including numerous Programming languages to drive the economy forward.",
 
-    "Software Developer,Web Developer,Computer System Analysts,Information Security Analyst,Project Manager,Network Administrator,Database Administrator,IT Architect,Computer Programmer,Hardware Engineer and Systems Engineer."
+    "Computer Science careers include but are not limited to:",
+
+    "Data Scientist, Software Tester, Software Developer, Web Developer, Computer System Analysts, Information Security Analyst, Project Manager, Network Administrator, Database Administrator, IT Architect, Computer Programmer, Hardware and Systems Engineer, UI/UX Designer."
   ],
   "cis": [
-    "Computer Information System (CIS) is a unique course that introduces you to the business side of the computing world. CIS focuses on the application of computers in a business environment with an emphasis on the analysis and design of business information systems. CIS takes technology and places it in a commercial setting. It is the study of business organizations and the programming, databases and networks that support them.",
+    "Computer Information Systems is the application of technology in managing the needs of businesses, so one will get to put technical skills to work in a business setting. Students in this major learn how to work with companies' IT systems to solve operations issues.",
 
-    "Functioning at the intersection of business and technology, it offers an interdisciplinary education that neither discipline alone can provide. In addition, students not only learn how technology works but also how to use the technology to benefit a company. This program offers a solid background in the analysis, design, development, deployment and administration of computer-based information systems within a business management context.",
+    "We offer a BSc. Degree in Computer Science (Information) which is a blend of Computer Science as well as Management Sciences. Programming and Managerial courses are taught such as Economics, Cost Accounting, Enterprise Information System, Artificial Intelligence, Networking, Operating systems, E-Commerce as well as many other Programming Languages.",
 
-    "Students will complement business skills with strong technical skills in databases, systems analysis and design, business processes, organizational behavior, networking and telecommunications, and project management, along with problem solving skills. Graduates will be well prepared for the growing number of opportunities in CIS and information technology.",
+    "Computer Information Systems careers include but are not limited to:",
 
-    "Students who major in Computer Information Systems require a strong background in computers and an understanding of software, good programming skills, mathematical and analytical skills, organizational, and communication skills. Career paths include;",
-
-    "Application analyst,Cyber security analyst,Computer programmer,Data modeler,Data analyst,Data scientist,Database administrator,Information systems manager,IT consultant,IT technical support officer,IT manager,Penetration tester,Systems analyst,Systems developer."
+    "Computer Systems Analyst, Software Engineer, Web Developer, Database Manager, Information Security Specialist, Network Administrator, Game Designer, Chief Technology Officer, Freelance Technology Consultant."
   ],
   "se": [
-    "Software engineering is the application of engineering to the development of software in a systematic method. Software Engineering is the study of how software systems are built, including topics such as project management, quality assurance, and software testing. It applies the principles and techniques of computer science, engineering, and mathematical analysis to the design, development, testing, and evaluation of the software and the systems that enable computers to perform their many applications.",
+    "Software Engineering involves the design and development of many types of software, including operating systems software, network distribution software, and software for compilers. Software engineering requires strong programming skills as well as knowledge in mathematics, database administration, how operating systems work and how hardware interacts. ",
 
-    "There are various fields in software engineering such as requirements gathering, software design, software construction, software maintenance, software configuration management, software engineering management, software development process management and creation, software engineering models and methods, software quality etc.",
+    "There are various fields in software engineering such as requirements gathering, software design, construction, maintenance, configuration management, engineering management, development process management and creation, engineering models and methods, quality etc.",
 
-    "Software engineering involves the design and development of many types of software, including operating systems software, network distribution software, and software for compilers. Software engineering requires strong programming skills as well as knowledge in mathematics, database administration, how operating systems work and how hardware interacts.",
+    "SWe offer a BSc. Degree in Software Engineering and courses such as Software Quality Engineering and Testing, Mobile App Design & Development, Artificial Intelligence, Software Measure and Metrics, Internet Technologies & Web App Development, Modelling & Simulation, Reverse Engineering and Malware Analysis and Cloud Computing Technologies.",
 
-    "It ensures that applications are built consistently, correctly, on time and on budget and within requirements. The demand of software engineering also emerged to cater to the immense rate of change in user requirements and environment on which applications are supposed to be working. Career paths include;",
+    "Software engineer careers include but are not limited to:",
 
-    "Applications Development,Systems Development,Web Development,Embedded Systems Development,System Programmer."
+    "Applications developer, Cyber security analyst, Game developer, Information systems manager, IT consultant, Multimedia programmer, Web developer, Web designer, Software engineer, Application analyst, Database administrator, Forensic computer analyst, IT technical support officer, Software tester, Sound designer, Systems analyst, Embedded Systems Engineer, Platform and Infrastructure Engineer, Software Architecture Engineer , Computer Systems Designer."
   ],
   "ct": [
-    "Computer Technology (CT) is a discipline under computer science which lies on the border-line between pure computer science and computer engineering. Students who study CT are introduced to various programming languages as well as electrical and mechanical skills. This entails things such as working with microcontrollers to build interesting systems and circuitry, building logical systems with integrated circuits, learning about artificial intelligence and various algorithms which could greatly enhance the student’s future career. Career paths include;",
+    "Computer technology combines the hardware of computers and computer-controlled devices with software. ",
 
-    "Systems Analyst,Network Administrator,Technician,Software Developer,Computer Hardware Engineers,Computer Network Architects,Computer Programmers,Database Administrators,Network and Computer Systems Administrators."
+    "We offer a BSc. Degree in Computer Science and courses such as Applied Electricity, Basic Electronics, Computer Architecture, Advanced Digital Electronics, Circuit Design & Testing, Numerical Methods and Analysis, Compiler Construction, Fundamentals of Software Engineering, Assembly Language, Androids",
+
+    "Computer Technology careers include but are not limited to:",
+
+    "Systems Analyst, Network Administrator, Technician, Software Developer, Computer Hardware Engineers, Computer Network Architects, Computer Programmers, Database Administrators, Network and Computer Systems Administrators."
   ],
   "ict": [
     "The Information Communication Technology (ICT) program strives to educate students to assume leadership roles where the application of information technology is concerned with the ultimate goal of connecting people, organizations, and communities to enhance their ability to succeed. It is similar to Information Technology (IT), but focuses primarily on communication technologies.",

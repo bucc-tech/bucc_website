@@ -65,7 +65,7 @@ const about = () => {
               department nor is knowledge of any programming language required.
             </p>
             <Link href="/contact">
-              <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+              <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer hover:bg-blue-600">
                 Get in Contact
               </button>
             </Link>
