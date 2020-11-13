@@ -64,7 +64,7 @@ const about = () => {
               It is not necessary for any club member to be a student of the
               department nor is knowledge of any programming language required.
             </p>
-            <Link href="mailto:bucompclub@gmail.com" target="_blank">
+            <Link href="/contact">
               <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
                 Get in Contact
               </button>

@@ -7,7 +7,7 @@ const teams = () => {
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604946621/bucc/excos/IMG_3756_nk6zww.jpg',
-      name: 'Philip Seun',
+      name: 'Phillip Oluwaseun',
       alt: 'president',
       position: 'President',
     },
@@ -28,13 +28,14 @@ const teams = () => {
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604946597/bucc/excos/IMG-20200128-WA0010_fqtnan.jpg',
-      name: 'Kasope',
+      name: 'Adedeji Kasopefoluwa',
       alt: 'PRO',
       position: 'Public Relation Officer',
     },
     {
-      img: '',
-      name: 'Wale',
+      img:
+        'https://res.cloudinary.com/davak/image/upload/v1605201749/bucc/excos/image0_3_whhcju.jpg',
+      name: 'Osineye Olawale',
       alt: 'secretary',
       position: 'General Secretary',
     },
@@ -55,14 +56,14 @@ const teams = () => {
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604946731/bucc/excos/IMG_0117_ri3nra.jpg',
-      name: 'Jemimah',
+      name: 'Ajileye Jemimah',
       alt: 'provost',
       position: 'Provost',
     },
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604946720/bucc/excos/image0_gbg1lo.jpg',
-      name: 'Laolu',
+      name: 'Omifare Olaoluwa',
       alt: 'welfare director',
       position: 'Welfare Director',
     },
@@ -76,14 +77,14 @@ const teams = () => {
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604951326/bucc/excos/image0_1_hfne6w.jpg',
-      name: 'Chioma Hilary',
+      name: 'Chikwelugo Chioma Hilary',
       alt: 'socail director',
       position: 'Social Director',
     },
     {
       img:
         'https://res.cloudinary.com/davak/image/upload/v1604946728/bucc/excos/image1_g4ffbk.jpg',
-      name: 'Deborah',
+      name: 'Idumu Deborah',
       alt: 'chaplain',
       position: 'Chaplain',
     },

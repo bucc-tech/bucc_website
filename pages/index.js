@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { GiantQuotes, UpsidedownTriangle } from '../components/icons';
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
 // import Nav from '../components/Nav';
 import Carousel, { Slide } from '../components/primitives/Carousel';
 import Circle from '../svg/Circle';
@@ -58,12 +59,14 @@ export default function Home() {
                   Babcock University Computer Club
                 </h1>
                 <p className="font-semibold text-lg leading-7 mb-12 max-w-sm">
-                  a student chapter of the University's Computing and Engineering
-                  Sciences Department.
+                  a student chapter of the University's Computing and
+                  Engineering Sciences Department.
                 </p>
-                <button className="bg-blue-500 text-white h-16 w-48 rounded-md">
-                  Get in Contact
-                </button>
+                <Link href="/contact">
+                  <button className="bg-blue-500 text-white h-16 w-48 rounded-md cursor-pointer">
+                    Get in Contact
+                  </button>
+                </Link>
               </div>
               <div className="flex justify-center flex-1 tablet:mt-20">
                 <div>
@@ -107,12 +110,16 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row justify-center mt-10 tablet:mt-24">
-              <div className="flex uppercase font-bold text-2xl" style={{alignItems:"center"}}>
+              <div
+                className="flex uppercase font-bold text-2xl"
+                style={{ alignItems: 'center' }}
+              >
                 <h1 className="">collab</h1>
                 <h1
                   className="text-white h-12 bg-blue-600 rounded-md pl-2 pr-2 ml-1"
                   style={{
-                    clipPath: 'polygon(0px 20%, 100% 0%, 100% 100%, 0px 95%)', borderRadius:"10px"
+                    clipPath: 'polygon(0px 20%, 100% 0%, 100% 100%, 0px 95%)',
+                    borderRadius: '10px',
                   }}
                 >
                   orators
@@ -162,32 +169,37 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 tablet:col-span-2">
-                <div className="flex uppercase font-bold text-2xl mt-32 tablet:mt-20" style={{alignItems:"center"}}>
+                <div
+                  className="flex uppercase font-bold text-2xl mt-32 tablet:mt-20"
+                  style={{ alignItems: 'center' }}
+                >
                   <h1 className="">about</h1>
                   <h1
                     className="text-white h-12 bg-blue-600 rounded-md pl-2 pr-2 ml-1"
                     style={{
-                      clipPath: 'polygon(0px 15%, 100% 0%, 100% 100%, 0px 90%)',borderRadius:"10px"
+                      clipPath: 'polygon(0px 15%, 100% 0%, 100% 100%, 0px 90%)',
+                      borderRadius: '10px',
                     }}
                   >
                     us
                   </h1>
                 </div>
                 <p className="font-medium text-base tracking-wide text-gray-700 leading-8">
-                  The Babcock University Computer Club is a student chapter of the
-                  University's Computing and Engineering Sciences Department.
-                  <br /> The mission of this club is to make possible the needs and
-                  interests of the computer science and engineering students as well
-                  as anybody with an interest in software development.
-                  <br /> It is not necessary for any club member to be a student of
-                  the department nor is knowledge of any programming language
+                  The Babcock University Computer Club is a student chapter of
+                  the University's Computing and Engineering Sciences
+                  Department.
+                  <br /> The mission of this club is to make possible the needs
+                  and interests of the computer science and engineering students
+                  as well as anybody with an interest in software development.
+                  <br /> It is not necessary for any club member to be a student
+                  of the department nor is knowledge of any programming language
                   required. <br /> The club has sponsored events such as
-                  exhibitions, programming competitions, hackathons, guest speakers,
-                  tech talks, and trips for teams to Silicon Valley. <br /> If you
-                  have a general interest in computing and want to join, feel free
-                  to contact the club at the BUCC secretariat and we'll include your
-                  name on our mailing list so you can stay informed of upcoming
-                  events.
+                  exhibitions, programming competitions, hackathons, guest
+                  speakers, tech talks, and trips for teams to Silicon Valley.{' '}
+                  <br /> If you have a general interest in computing and want to
+                  join, feel free to contact the club at the BUCC secretariat
+                  and we'll include your name on our mailing list so you can
+                  stay informed of upcoming events.
                 </p>
               </div>
             </div>
@@ -202,10 +214,12 @@ export default function Home() {
                 style={{ fontFamily: "'Luckiest Guy', cursive" }}
               >
                 Have an idea, project or event ?
-                </h1>
-              <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
-                Work with us
+              </h1>
+              <Link href="/contact">
+                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+                  Work with us
                 </button>
+              </Link>
             </div>
             <div
               className="absolute -mt-20 right-0 mr-20 tablet:hidden"
@@ -231,11 +245,14 @@ export default function Home() {
               </h1>
               <p className="font-bold text-white mb-8 max-w-md">
                 It is not necessary for any club member to be a student of the
-                department nor is knowledge of any programming language required.
+                department nor is knowledge of any programming language
+                required.
               </p>
-              <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md">
-                Get in Contact
-              </button>
+              <Link href="/contact">
+                <button className="bg-blue-500 uppercase text-white h-16 w-48 rounded-md cursor-pointer">
+                  Get in Contact
+                </button>
+              </Link>
             </div>
           </section>
         </div>
