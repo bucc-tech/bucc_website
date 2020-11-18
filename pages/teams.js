@@ -1,5 +1,5 @@
-import React from 'react';
 import Head from 'next/head';
+import React from 'react';
 import Layout from '../components/Layout';
 
 const teams = () => {
@@ -61,8 +61,7 @@ const teams = () => {
       position: 'Provost',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946720/bucc/excos/image0_gbg1lo.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946720/bucc/excos/image0_gbg1lo.jpg',
       name: 'Omifare Olaoluwa',
       alt: 'welfare director',
       position: 'Welfare Director',
@@ -82,8 +81,7 @@ const teams = () => {
       position: 'Social Director',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946728/bucc/excos/image1_g4ffbk.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946728/bucc/excos/image1_g4ffbk.jpg',
       name: 'Idumu Deborah',
       alt: 'chaplain',
       position: 'Chaplain',
@@ -111,31 +109,17 @@ const teams = () => {
           </div>
         </section>
 
-        <div
-          className="container mx-auto h-24 mt-32"
-          style={{ whiteSpace: 'nowrap' }}
-        >
+        <div className="container mx-auto h-24 mt-32 px-8" style={{ whiteSpace: 'nowrap' }}>
           <h1 className="text-2xl font-semibold">2020/2021 Executives</h1>
         </div>
-        <div className="container mx-auto grid grid-rows-4 grid-flow-col gap-4 gap-y-12 sm:auto-cols-fr">
+        <div className="container mx-auto grid justify-center grid-cols-3 gap-32 px-8 largeTablet:gap-10 tablet:grid-cols-2 tablet:gap-16 smallTablet:gap-5 phone:grid-cols-1 phone:gap-10  sm:auto-cols-fr">
           {cardData.map((info, index) => {
             return (
-              <div
-                key={index}
-                className="rounded-md overflow-hidden shadow-lg bg-white"
-                style={{ width: '337px', height: '380px' }}
-              >
-                <img
-                  className="w-full"
-                  src={info.img}
-                  alt={info.alt}
-                  style={{ height: '300px' }}
-                />
+              <div key={index} className="rounded-md overflow-hidden shadow-lg bg-white col-span-1">
+                <img className="w-full" src={info.img} alt={info.alt} style={{ height: '300px' }} />
                 <div className="px-6 py-4">
                   <div className="font-bold text-base mb-2">{info.name}</div>
-                  <span className="text-gray-700 text-base">
-                    {info.position}
-                  </span>
+                  <span className="text-gray-700 text-base">{info.position}</span>
                 </div>
               </div>
             );
