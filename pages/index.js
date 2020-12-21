@@ -82,15 +82,15 @@ export default function Home() {
                     <div className="rounded shadow-lg bg-white w-56 text-left -mt-40 absolute z-50 ml-40 tablet:ml-20">
                       <div className="p-4">
                         <h1 className="font-bold text-xl">Upcominig Event</h1>
-                        {/* <p className="font-black text-sm text-gray-600 mt-1">
-                          11:15am, Nov 10, Sunday 2020
+                        <p className="font-black text-sm text-gray-600 mt-1">
+                          6pm, December 22, Tuesday 2020
                         </p>
                         <h4 className="font-black text-base text-gray-600 mt-5">
                           Theme
                         </h4>
                         <p className="font-semibold text-base text-blue-900">
-                          Becoming the next tech CEO
-                        </p> */}
+                          Exploring Career Pathways 2
+                        </p>
                       </div>
                       <button className="w-32 h-8 bg-orange-400"></button>
                       <button className="w-24 h-8 bg-red-500"></button>
