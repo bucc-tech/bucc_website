@@ -50,7 +50,7 @@ const MobileNav = () => {
           </Link>
         </li>
         <li className={styles.nav_item}>
-          <Link href="blog" className={styles.nav_link}>
+          <Link href="/help" className={styles.nav_link}>
             <span className={styles.nav_link}>Click here for help!</span>
           </Link>
         </li>
