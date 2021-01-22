@@ -126,7 +126,11 @@ const Nav = () => {
           <Link href="/blog">
             <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Blog</a>
           </Link>
+          <Link href="/help">
+            <a className="font-normal text-white rounded-md bg-blue-500 mr-8 text-xl  hover:font-bold">Click here for help!</a>
+          </Link>
         </div>
+        
       </nav>
       {show && <MobileNav show={show} />}
     </>
