@@ -58,16 +58,23 @@ const Footer = () => {
                 <Ig />
               </div>
             </Link>
-            <Link href="/">
+            <Link href="https://wwww.linkedin.com/company/bucomputerclub/">
               <div className="mr-1">
                 <Li />
+              </div>
+            </Link>
+            <Link href="https://www.youtube.com/channel/UCwmM4cQ4_acxSYfMm8BIn6w">
+              <div className="mr-1">
+                <img src="/images/yt.png" style={{ width: '100px' }} />
               </div>
             </Link>
           </div>
         </div>
         <div className="col-span-2 mt-10 tablet:col-span-4 smallTablet:col-span-6">
           <div className="mb-6">
-            <h1 className="font-semibold text-lg text-blue-800">Subscribe to News Letter</h1>
+            <h1 className="font-semibold text-lg text-blue-800">
+              Subscribe to News Letter
+            </h1>
           </div>
           <div className="flex flex-col font-normal text-base text-gray-700 w-full">
             <div className="mb-3 w-full">
