@@ -48,19 +48,19 @@ const Footer = () => {
             <h1 className="font-semibold text-lg text-blue-800">Socials</h1>
           </div>
           <div className="flex font-normal text-base text-gray-700 cursor-pointer">
-            <Link href="/">
-              <div className="mr-1">
-                <Fb />
-              </div>
-            </Link>
             <Link href="https://www.instagram.com/bu_computerclub/">
               <div className="mr-1">
                 <Ig />
               </div>
             </Link>
-            <Link href="https://wwww.linkedin.com/company/bucomputerclub/">
+            <Link href="https://www.linkedin.com/company/bucomputerclub/">
               <div className="mr-1">
                 <Li />
+              </div>
+            </Link>
+            <Link href="https://twitter.com/bu_computerclub">
+              <div className="mr-1">
+                <img src="/images/twitter.svg" style={{ width: '30px' }} />
               </div>
             </Link>
             <Link href="https://www.youtube.com/channel/UCwmM4cQ4_acxSYfMm8BIn6w">
