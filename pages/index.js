@@ -48,6 +48,10 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        <meta
+          name="description"
+          content="A student chapter of the University's Computing and Engineering Sciences Department."
+        ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
@@ -86,10 +90,10 @@ export default function Home() {
                           {/* 2pm, January 29, Friday 2021 */}
                         </p>
                         <h4 className="font-black text-base text-gray-600 mt-5">
-                          Theme
+                          {/* Theme */}
                         </h4>
                         <p className="font-semibold text-base text-blue-900">
-                        {/* Telecommunication and IT: Networking and Security */}
+                          {/* Telecommunication and IT: Networking and Security */}
                         </p>
                       </div>
                       <button className="w-32 h-8 bg-orange-400"></button>
