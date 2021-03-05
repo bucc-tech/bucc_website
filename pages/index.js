@@ -83,13 +83,13 @@ export default function Home() {
                       <div className="p-4">
                         <h1 className="font-bold text-xl">Upcominig Event</h1>
                         <p className="font-black text-sm text-gray-600 mt-1">
-                          2pm, January 29, Friday 2021
+                          {/* 2pm, January 29, Friday 2021 */}
                         </p>
                         <h4 className="font-black text-base text-gray-600 mt-5">
                           Theme
                         </h4>
                         <p className="font-semibold text-base text-blue-900">
-                        Telecommunication and IT: Networking and Security
+                        {/* Telecommunication and IT: Networking and Security */}
                         </p>
                       </div>
                       <button className="w-32 h-8 bg-orange-400"></button>
