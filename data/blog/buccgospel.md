@@ -18,11 +18,11 @@ We encourage everyone to remain indoors and keep safe! Thank you, and we look fo
 ### “Be still, and know that I am God! I will be honored by every nation. I will be honored throughout the world.”
 ### Psalms‬ ‭46:10‬ ‭NLT
 
-Link: [Apple Music Playlist](https://music.apple.com/ng/playlist/gospel-for-bucc/pl.u-DdAN853s0Md3pAJ)
+**Link:** [Apple Music Playlist](https://music.apple.com/ng/playlist/gospel-for-bucc/pl.u-DdAN853s0Md3pAJ)
 
-Link: [Spotify Playlist](https://open.spotify.com/playlist/0w6xqCF81URw0cau6ycrOS?si=otl-KpqRQeufNyBZyLeCjQ)
+**Link:** [Spotify Playlist](https://open.spotify.com/playlist/0w6xqCF81URw0cau6ycrOS?si=otl-KpqRQeufNyBZyLeCjQ)
 
-Link: [Audio Mack Playlist](https://audiomack.com/deborahidumu/playlist/gospel-for-bucc)
+**Link:** [Audio Mack Playlist](https://audiomack.com/deborahidumu/playlist/gospel-for-bucc)
 
 
 
