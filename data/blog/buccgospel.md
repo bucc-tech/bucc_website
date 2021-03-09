@@ -6,6 +6,7 @@ image: "https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo
 ---
 
 ## GREAT BUCC
+This **word** is bold. This <em>word</em> is italic.
 
 Sometimes things don’t work out as planned or as expected, but let’s try and remember that God is God and he is with us at all times. 
 
@@ -17,9 +18,13 @@ We encourage everyone to remain indoors and keep safe! Thank you, and we look fo
 ### “Be still, and know that I am God! I will be honored by every nation. I will be honored throughout the world.”
 ### Psalms‬ ‭46:10‬ ‭NLT
 
-- **[Apple Music Playlist](https://music.apple.com/ng/playlist/gospel-for-bucc/pl.u-DdAN853s0Md3pAJ)**
--  **[Spotify Playlist](https://open.spotify.com/playlist/0w6xqCF81URw0cau6ycrOS?si=otl-KpqRQeufNyBZyLeCjQ)**
--  **[Audio Mack Playlist](https://audiomack.com/deborahidumu/playlist/gospel-for-bucc)**
+Link: [Apple Music Playlist](https://music.apple.com/ng/playlist/gospel-for-bucc/pl.u-DdAN853s0Md3pAJ)
+
+Link: [Spotify Playlist](https://open.spotify.com/playlist/0w6xqCF81URw0cau6ycrOS?si=otl-KpqRQeufNyBZyLeCjQ)
+
+Link: [Audio Mack Playlist](https://audiomack.com/deborahidumu/playlist/gospel-for-bucc)
+
+
 
 
 

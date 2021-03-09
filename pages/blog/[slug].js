@@ -13,7 +13,7 @@ function PostTemplate({ content, data }) {
       </Head>
       <Layout>
         <section>
-          <div className="container mx-auto my-20">
+          <div className="container mx-auto my-20 p-5">
             <ReactMarkdown source={content} />
           </div>
         </section>
