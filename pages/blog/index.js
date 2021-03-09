@@ -26,7 +26,7 @@ const Button = ({ children }) => {
 const Blog = ({ posts }) => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const [numberOfItems, setNumberOfItems] = useState(3.5);
-  const [loading] = useState(true);
+  const [loading] = useState(false);
   const chevronWidth = 40;
 
   const getItemNum = () => {
@@ -115,15 +115,15 @@ const Blog = ({ posts }) => {
                     </div>
                     {/* image */}
                     <div
-                      className="col-span-2 w-full h-full bg-cover smallTablet:hidden"
+                      className="col-span-2 w-full h-full bg-contain bg-no-repeat bg-center smallTablet:hidden"
                       style={{
                         backgroundImage:
-                          "url('https://tailwindcss.com/img/card-left.jpg')",
+                          "url('https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo_z2o6vm.jpg')",
                       }}
                     ></div>
                     <img
                       className="col-span-2 w-full h-auto hidden smallTablet:block"
-                      src="https://tailwindcss.com/img/card-left.jpg"
+                      src="https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo_z2o6vm.jpg"
                       alt=""
                     />
                   </div>
@@ -159,7 +159,7 @@ const Blog = ({ posts }) => {
                 </div>
               </div>
             </section>
-            <section className="px-4">
+            {/* <section className="px-4">
               <div className="container mx-auto mt-10 px-4 tablet:px-0">
                 <div
                   className="w-full grid grid-cols-9 smallTablet:flex smallTablet:flex-wrap-reverse"
@@ -192,7 +192,7 @@ const Blog = ({ posts }) => {
                   />
                 </div>
               </div>
-            </section>
+            </section> */}
             <section className="px-4">
               <div className="container mx-auto mt-10 px-4 tablet:px-0">
                 <div className="flex justify-end">
