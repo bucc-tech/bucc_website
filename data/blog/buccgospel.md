@@ -6,7 +6,6 @@ image: "https://res.cloudinary.com/davak/image/upload/v1603574352/bucc/bucc_logo
 ---
 
 ## GREAT BUCC
-This **word** is bold. This <em>word</em> is italic.
 
 Sometimes things don’t work out as planned or as expected, but let’s try and remember that God is God and he is with us at all times. 
 
