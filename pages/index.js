@@ -90,7 +90,7 @@ export default function Home() {
                           8am, March 28th, Sunday 2021
                         </p>
                         <h4 className="font-black text-base text-gray-600 mt-5">
-                          {/* Theme */}
+                          Theme: BlockChain
                         </h4>
                         <p className="font-semibold text-base text-blue-900">
                           BUCC Hackathon
