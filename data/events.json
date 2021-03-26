@@ -33,5 +33,11 @@
     "description": "BUCC Virtual Awards",
     "date": "21-03-2021",
     "link": "https://www.instagram.com/bu_computerclub/"
+  },
+  {
+    "title": "BUCC Hackathon",
+    "image": "https://res.cloudinary.com/davak/image/upload/v1616766919/bucc/hackathon_wcc9op.jpg",
+    "description": "BUCC Hackathon",
+    "date": "28-03-2021"
   }
 ]
