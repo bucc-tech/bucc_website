@@ -15,16 +15,19 @@ export default function Home() {
       year: '2013',
       quote:
         'It was fun talking with some Babcock students today 💪🏽💪🏽💪🏽 I was able to listen to some of the problems they are scared of and motivated them to seek greatness 🔥🔥🔥 I see the future tech leaders and I see the fire of passion waiting to be ignited 👊🏽👊🏽👊🏽',
+        photo:'https://res.cloudinary.com/davak/image/upload/v1620486866/bucc/RcseE_72_400x400_qwqanm.jpg'
     },
     {
       name: 'David Akpughe',
       year: '2020',
       quote: 'It was really awesome tbh. Fantastic place.',
+      photo:'https://res.cloudinary.com/davak/image/upload/v1620486519/bucc/me_ffrsin.jpg'
     },
     {
       name: 'Pedro Ogheneochuko',
       year: '2020',
-      quote: 'I loved it',
+      quote: 'I loved it.',
+      photo:'https://res.cloudinary.com/davak/image/upload/v1620486741/bucc/ped_rqrvx6.jpg'
     },
   ].map((quote, index) => {
     return (
@@ -35,7 +38,7 @@ export default function Home() {
             <GiantQuotes className="absolute right-0 top-0 -mt-5 mr-5" />
           </div>
           <UpsidedownTriangle />
-          <img src="/images/avatar.png" className="rounded h-20 w-20 mt-10" />
+          <img src={quote.photo} className="rounded h-20 w-20 mt-10" />
           <p className="mt-4">{quote.name}</p>
           <a href="#" className="text-primaryColor">
             {quote.year} Alumnus
@@ -77,7 +80,7 @@ export default function Home() {
                   <div className="one">
                     <img
                       className="inline relative z-20 tablet:ml-10 tablet:w-full"
-                      src="https://res.cloudinary.com/davak/image/upload/v1603624496/bucc/Rectangle_ya9f85.png"
+                      src="https://res.cloudinary.com/davak/image/upload/v1620633198/bucc/IMG_3621_279x378_sic9eq.jpg"
                       alt=""
                     />
                     <div className="inline -ml-16 relative z-10 tablet:hidden">
@@ -87,13 +90,13 @@ export default function Home() {
                       <div className="p-4">
                         <h1 className="font-bold text-xl">Upcominig Event</h1>
                         <p className="font-black text-sm text-gray-600 mt-1">
-                          8am, March 28th, Sunday 2021
+                          {/* 8am, March 28th, Sunday 2021 */}
                         </p>
                         <h4 className="font-black text-base text-gray-600 mt-5">
-                          Theme: BlockChain
+                          {/* Theme: BlockChain */}
                         </h4>
                         <p className="font-semibold text-base text-blue-900">
-                          BUCC Hackathon
+                          {/* BUCC Hackathon */}
                         </p>
                       </div>
                       <button className="w-32 h-8 bg-orange-400"></button>
@@ -106,7 +109,7 @@ export default function Home() {
                     </div>
                     <img
                       className="inline relative z-40 -mt-64 ml-6 tablet:hidden"
-                      src="https://res.cloudinary.com/davak/image/upload/v1603624489/bucc/Rectangle_Copy_3_kb0dgu.png"
+                      src="https://res.cloudinary.com/davak/image/upload/v1620633681/bucc/IMG_8028_1_279x378_dr8zha.jpg"
                       alt=""
                     />
                   </div>
@@ -237,7 +240,7 @@ export default function Home() {
             style={{
               minHeight: '585px',
               background:
-                "url('https://res.cloudinary.com/davak/image/upload/v1603801943/bucc/BG_rkwfgj.png')",
+                "url('https://res.cloudinary.com/davak/image/upload/v1620634272/bucc/IMG_8034_1441x582_weqs2z.jpg')",
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',

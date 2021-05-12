@@ -5,57 +5,49 @@ import Layout from '../components/Layout';
 const teams = () => {
   const cardData = [
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946621/bucc/excos/IMG_3756_nk6zww.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946621/bucc/excos/IMG_3756_nk6zww.jpg',
       name: 'Phillip Oluwaseun',
       alt: 'president',
       position: 'President',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946616/bucc/excos/IMG_7477_s9mfoh.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946616/bucc/excos/IMG_7477_s9mfoh.jpg',
       name: 'Nwafor Kosi',
       alt: 'vp admin',
       position: 'Vice President Administrative',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604950118/bucc/excos/Image-1_iway6u.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604950118/bucc/excos/Image-1_iway6u.jpg',
       name: 'Kosoko Kofoworola',
       alt: 'vp acad',
       position: 'Vice President Academics',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946597/bucc/excos/IMG-20200128-WA0010_fqtnan.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946597/bucc/excos/IMG-20200128-WA0010_fqtnan.jpg',
       name: 'Adedeji Kasopefoluwa',
       alt: 'PRO',
       position: 'Public Relation Officer',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1605201749/bucc/excos/image0_3_whhcju.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1605201749/bucc/excos/image0_3_whhcju.jpg',
       name: 'Osineye Olawale',
       alt: 'secretary',
       position: 'General Secretary',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946606/bucc/excos/IMG-0309_uvhte1.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946606/bucc/excos/IMG-0309_uvhte1.jpg',
       name: 'Adegbesin Omolara Zainab',
       alt: 'female sport director',
       position: 'Female Sport Director',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946599/bucc/excos/IMG-20200724-WA0166_al3v9w.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946599/bucc/excos/IMG-20200724-WA0166_al3v9w.jpg',
       name: 'Madukoma Blessed',
       alt: 'male sport director',
       position: 'Male Sport Director',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946731/bucc/excos/IMG_0117_ri3nra.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946731/bucc/excos/IMG_0117_ri3nra.jpg',
       name: 'Ajileye Jemimah',
       alt: 'provost',
       position: 'Provost',
@@ -67,15 +59,13 @@ const teams = () => {
       position: 'Welfare Director',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604946620/bucc/excos/IMG_2492_uzw4md.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604946620/bucc/excos/IMG_2492_uzw4md.jpg',
       name: 'Fafi Anita',
       alt: 'tresurer',
       position: 'Tresurer',
     },
     {
-      img:
-        'https://res.cloudinary.com/davak/image/upload/v1604951326/bucc/excos/image0_1_hfne6w.jpg',
+      img: 'https://res.cloudinary.com/davak/image/upload/v1604951326/bucc/excos/image0_1_hfne6w.jpg',
       name: 'Chikwelugo Chioma Hilary',
       alt: 'socail director',
       position: 'Social Director',
@@ -97,9 +87,11 @@ const teams = () => {
         <section
           style={{
             background:
-              "url('https://res.cloudinary.com/davak/image/upload/v1604085191/bucc/Group_89_tndjci.png')",
+              "url('https://res.cloudinary.com/davak/image/upload/v1620805094/bucc/dd_qwnyex.jpg')",
+            backgroundPosition: "center",
+            backgroundSize: "cover"
           }}
-          className="w-full h-64"
+          className="w-full h-96"
         >
           <div
             className="container mx-auto h-24"
@@ -109,17 +101,32 @@ const teams = () => {
           </div>
         </section>
 
-        <div className="container mx-auto h-24 mt-32 px-8" style={{ whiteSpace: 'nowrap' }}>
+        <div
+          className="container mx-auto h-24 mt-32 px-8"
+          style={{ whiteSpace: 'nowrap' }}
+        >
           <h1 className="text-2xl font-semibold">2020/2021 Executives</h1>
         </div>
         <div className="container mx-auto grid justify-center grid-cols-3 gap-32 px-8 largeTablet:gap-10 tablet:grid-cols-2 tablet:gap-16 smallTablet:gap-5 phone:grid-cols-1 phone:gap-10  sm:auto-cols-fr">
           {cardData.map((info, index) => {
             return (
-              <div key={index} className="rounded-md overflow-hidden shadow-lg bg-white col-span-1">
-                <img className="w-full" src={info.img} alt={info.alt} style={{ height: '300px' }} />
+              <div
+                key={index}
+                className="rounded-md overflow-hidden shadow-lg bg-white col-span-1 w-84"
+              >
+                <div className="flex justify-center w-84">
+                  <img
+                    className="w-auto"
+                    src={info.img}
+                    alt={info.alt}
+                    style={{ height: '300px' }}
+                  />
+                </div>
                 <div className="px-6 py-4">
                   <div className="font-bold text-base mb-2">{info.name}</div>
-                  <span className="text-gray-700 text-base">{info.position}</span>
+                  <span className="text-gray-700 text-base">
+                    {info.position}
+                  </span>
                 </div>
               </div>
             );

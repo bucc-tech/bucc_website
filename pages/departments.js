@@ -37,11 +37,17 @@ const Departments = ({ departmments }) => {
       <Layout>
         <section
           style={{
-            backgroundImage: "url('/images/departments.png')",
+            background:
+              "url('https://res.cloudinary.com/davak/image/upload/v1620805094/bucc/dd_qwnyex.jpg')",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
           }}
-          className="w-full h-64 bg-no-repeat bg-cover"
+          className="w-full h-96 bg-no-repeat bg-cover"
         >
-          <div className="container mx-auto" style={{ lineHeight: '200px', whiteSpace: 'nowrap' }}>
+          <div
+            className="container mx-auto"
+            style={{ lineHeight: '200px', whiteSpace: 'nowrap' }}
+          >
             <h1 className="text-white text-3xl font-bold ml-4">Departments</h1>
           </div>
         </section>
@@ -56,7 +62,11 @@ const Departments = ({ departmments }) => {
               onClick={() => setSelectedDepartment('cs')}
             >
               <ComputerScience className="fill-current" />
-              <p className={`${selectedDepartment === 'cs' && 'text-white'} text-black`}>
+              <p
+                className={`${
+                  selectedDepartment === 'cs' && 'text-white'
+                } text-black`}
+              >
                 Computer Science
               </p>
               <UpsidedownTriangle
@@ -74,7 +84,11 @@ const Departments = ({ departmments }) => {
               onClick={() => setSelectedDepartment('cis')}
             >
               <ComputerInformationSystem className="fill-current" />
-              <p className={`${selectedDepartment === 'cis' && 'text-white'} text-black`}>
+              <p
+                className={`${
+                  selectedDepartment === 'cis' && 'text-white'
+                } text-black`}
+              >
                 Computer Information System
               </p>
               <UpsidedownTriangle
@@ -92,7 +106,11 @@ const Departments = ({ departmments }) => {
               onClick={() => setSelectedDepartment('se')}
             >
               <SoftwareEngineering className="fill-current" />
-              <p className={`${selectedDepartment === 'se' && 'text-white'} text-black`}>
+              <p
+                className={`${
+                  selectedDepartment === 'se' && 'text-white'
+                } text-black`}
+              >
                 Software Engineering
               </p>
               <UpsidedownTriangle
@@ -110,7 +128,11 @@ const Departments = ({ departmments }) => {
               onClick={() => setSelectedDepartment('ct')}
             >
               <ComputerTechnology className="fill-current" />
-              <p className={`${selectedDepartment === 'ct' && 'text-white'} text-black`}>
+              <p
+                className={`${
+                  selectedDepartment === 'ct' && 'text-white'
+                } text-black`}
+              >
                 Computer Technology
               </p>
               <UpsidedownTriangle
@@ -128,7 +150,11 @@ const Departments = ({ departmments }) => {
               onClick={() => setSelectedDepartment('ict')}
             >
               <InformationCommunicationTechnology className="fill-current" />
-              <p className={`${selectedDepartment === 'ict' && 'text-white'} text-black`}>
+              <p
+                className={`${
+                  selectedDepartment === 'ict' && 'text-white'
+                } text-black`}
+              >
                 Information Communication Technology
               </p>
               <UpsidedownTriangle
@@ -149,7 +175,8 @@ const Departments = ({ departmments }) => {
               ? 'Software Engineering'
               : selectedDepartment === 'ct'
               ? 'Computer Technology'
-              : selectedDepartment === 'ict' && 'Information Communication Technology'}
+              : selectedDepartment === 'ict' &&
+                'Information Communication Technology'}
           </h1>
 
           <hr className="w-full max-w-5xl mx-auto h-2 bg-primaryColor rounded-tl-full rounded-tr-full mt-16 mb-0" />
