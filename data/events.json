@@ -1,12 +1,5 @@
 [
   {
-    "title": "Hello World!!!",
-    "image": "/images/image 2.png",
-    "description": "Intorduction to the world of tech",
-    "date": "27-12-2020",
-    "link": "https://rutgers-hipaa.zoom.us/j/93834278330?pwd=WElnbmFpbXE3MkFTQ2t3UkJSRmlEUT09"
-  },
-  {
     "title": "Exploring Career Pathways",
     "image": "/images/ignite1.jpeg",
     "description": "Preparing for Disruption - Part 1",
@@ -38,6 +31,8 @@
     "title": "BUCC Hackathon",
     "image": "https://res.cloudinary.com/davak/image/upload/v1616766919/bucc/hackathon_wcc9op.jpg",
     "description": "BUCC Hackathon",
-    "date": "28-03-2021"
+    "date": "28-03-2021",
+    "link": "#"
+
   }
 ]

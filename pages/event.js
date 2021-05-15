@@ -68,14 +68,22 @@ const event = ({ events }) => {
 
                   <div className="flex flex-row justify-evenly flex-wrap phone:justify-start">
                     <Link href={event.link}>
-                      <button
-                        className="border rounded w-40 h-12 mt-4 cursor-pointer"
-                        style={{ border: '3px solid #258AFF !important', fontFamily:"'Montserrat', sans-serif" }}
-                      >
-                        Join us
-                      </button>
+                      <a target="_blank" rel="noopener noreferrer">
+                        <button
+                          className="border rounded w-40 h-12 mt-4 cursor-pointer"
+                          style={{
+                            border: '3px solid #258AFF !important',
+                            fontFamily: "'Montserrat', sans-serif",
+                          }}
+                        >
+                          Join us
+                        </button>
+                      </a>
                     </Link>
-                    <button className="w-40 h-12 mt-4 bg-transparent" style={{fontFamily:"'Montserrat', sans-serif" }}>
+                    <button
+                      className="w-40 h-12 mt-4 bg-transparent"
+                      style={{ fontFamily: "'Montserrat', sans-serif" }}
+                    >
                       <span>Read more</span>
                     </button>
                   </div>

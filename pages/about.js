@@ -27,10 +27,11 @@ const about = () => {
           </div>
         </section>
         <div className="container mx-auto my-20" style={{ width: '1160px' }}>
-          <p className="font-medium text-base text-justify tracking-wide text-gray-700 leading-8">
+          <p className="font-medium text-base tracking-wide text-gray-700 leading-8" style={{textAlign:"justify"}}>
             The Babcock University Computer Club is a student chapter of the
             University's Computing and Engineering Sciences Department.
-            <br /> The mission of this club is to make possible the needs and
+            <br /> 
+            The mission of this club is to make possible the needs and
             interests of the computer science and engineering students as well
             as anybody with an interest in software development.
             <br /> It is not necessary for any club member to be a student of
@@ -50,7 +51,7 @@ const about = () => {
           style={{
             height: '585px',
             background:
-              "url('https://res.cloudinary.com/davak/image/upload/v1603801943/bucc/BG_rkwfgj.png')",
+              "url('https://res.cloudinary.com/davak/image/upload/v1621001744/bucc/IMG_2670_voho6q.jpg')",
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',

@@ -84,13 +84,13 @@ const Nav = () => {
             href="/departments"
             className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold"
           >
-            Departments
+            Programs
           </a>
           <div className="dropdown mr-8 flex relative">
             <Link href="/teams">
               <a className="flex items-center font-normal text-base hover:text-blue-500 hover:font-bold">
                 <span>Teams</span>
-                <svg
+                {/* <svg
                   width="14"
                   height="11"
                   viewBox="0 0 14 11"
@@ -98,7 +98,7 @@ const Nav = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z" fill="#2D9CDB" />
-                </svg>
+                </svg> */}
               </a>
             </Link>
             <ul className="dropdown-menu absolute hidden text-gray-700 pt-6">
@@ -130,9 +130,6 @@ const Nav = () => {
           </Link>
           <Link href="/blog">
             <a className="font-normal mr-8 text-base hover:text-blue-500 hover:font-bold">Blog</a>
-          </Link>
-          <Link href="/help">
-            <a className="font-normal text-white rounded-md bg-blue-500 mr-8 text-xl  hover:font-bold">Click here for help!</a>
           </Link>
         </div>
         

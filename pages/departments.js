@@ -155,7 +155,7 @@ const Departments = ({ departmments }) => {
                   selectedDepartment === 'ict' && 'text-white'
                 } text-black`}
               >
-                Information Communication Technology
+                Information Technology
               </p>
               <UpsidedownTriangle
                 className={`absolute bottom-0 mx-auto -mb-4 ${
