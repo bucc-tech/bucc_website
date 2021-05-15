@@ -33,3 +33,7 @@ input, textarea {
 h1 {
   margin-top: 0px;
 }
+
+p{
+  text-align: justify;
+}
